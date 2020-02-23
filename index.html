@@ -12,5 +12,19 @@
         <a href="page2.html" class="button">
             <p>page2</p>
         </a>
+        <h2 id = "counter"> 0 </h2>
+        <div class = "button" id = "clickme"> 
+            <p>Inc</p>
+        </div>
     </body>
 </html>
+
+<script>
+    var counter = 0;
+    var button = document.getElementById("clickme");
+    var show = document.getElementById("counter");
+    button.onclick = function (){
+        counter += 1;
+        show.innerHTML = counter;
+    };
+</script>

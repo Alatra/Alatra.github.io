@@ -13,6 +13,14 @@ p + p {
     color:black;
 }
 
+h2#counter{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 1.4vw;
+    width: 15vw;
+}
+
 .button p {
     font-size: 1.2vw;
 }
