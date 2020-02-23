@@ -1,0 +1,13 @@
+p + p {
+    color: red;
+}
+
+.button{
+    display: flex;
+    border-style: solid;
+    justify-content:center;
+    height: 3vw;
+    width: 15vw;
+    text-decoration:none;
+    color:black;
+}
