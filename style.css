@@ -6,8 +6,13 @@ p + p {
     display: flex;
     border-style: solid;
     justify-content:center;
+    align-items: center;
     height: 3vw;
     width: 15vw;
     text-decoration:none;
     color:black;
+}
+
+.button p {
+    font-size: 1.2vw;
 }
